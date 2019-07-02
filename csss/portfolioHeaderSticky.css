@@ -1,0 +1,226 @@
+
+/* border for website*/
+
+@media screen and (min-width: 750px) {
+	
+
+
+.borders > * {
+	position: fixed;
+	background: #fff;
+	height: 2em;
+	width: 2em;
+	z-index: 20;
+	
+
+}
+
+
+.borders > *.top {
+	top: 0;
+	left: 0;
+	width: 100%
+}
+
+.borders > *.bottom {
+	bottom: 0;
+	left: 0;
+	width: 100%
+}
+
+.borders > *.left {
+	top:  0;
+	left: 0;
+	height: 100%;
+}
+
+.borders > *.right {
+	top:  0;
+	right:  0;
+	height: 100%;
+}
+
+/* sticky header*/
+
+.pos-header > * {
+	position: fixed;
+	z-index: 22;
+	list-style: none;
+	color: #000;
+}
+
+.pos-header >  .list-social {
+	top: 45%;
+	right: 0.4em;
+	font-size: 20px;
+
+
+}
+
+.pos-header > .navbar-brand {
+	top: 0;
+	left: 10%
+}
+
+.navbar-brand:hover {
+	color: #000;
+}
+
+.icon {
+	color: #000;
+
+
+}
+
+.icon > .test {
+	position: absolute; 
+	top: -2px;
+	right: -15px;
+}
+
+
+.scroll-mini-top {
+	transform: rotate(270deg);
+	position: fixed;
+    right: 51px;
+    bottom: 63px;
+}
+
+.SCC-2 {
+	height: 17px;
+	width: 17px;
+}
+
+.mini-text-top {
+    bottom: 35px;
+    right: 55px;
+	transform: rotate(90deg);
+	position: fixed;
+	height: 17px;
+	width: 17px;
+	font-size: 7px;
+	font-weight: 900;
+
+}
+
+.scroll-mini {
+	position: fixed;
+    bottom: 40px;
+    left: 50px;
+	transform: rotate(90deg);
+}
+
+.SCC {
+	height: 17px;
+	width: 17px;
+}
+
+.mini-text {
+	position: fixed;
+    left: 54px;
+    bottom: 70px;
+	transform: rotate(270deg);
+	font-size: 7px;
+	height: 17px;
+	width: 17px;
+	font-weight: 900;
+}
+
+}
+
+@media screen and (max-width: 749px) {
+
+/* sticky header*/
+
+.pos-header > * {
+	position: absolute;
+	z-index: 22;
+	list-style: none;
+	color: #000;
+}
+
+.pos-header >  .list-social {
+	top: 0;
+	right: 0.4em;
+	font-size: 20px;
+
+
+}
+
+.pos-header > .navbar-brand {
+	top: 0;
+	left: 10%
+}
+
+.navbar-brand:hover {
+	color: #000;
+}
+
+.icon {
+	color: #000;
+
+
+}
+
+.icon-list {
+	display: inline-block;
+	padding: 2px
+}
+
+.icon > .test {
+	position: absolute; 
+	top: -2px;
+	right: -15px;
+}
+
+
+
+.scroll-mini-top {
+	transform: rotate(270deg);
+	position: fixed;
+    right: 51px;
+    bottom: 63px;
+}
+
+.SCC-2 {
+	height: 17px;
+	width: 17px;
+}
+
+.mini-text-top {
+    bottom: 40px;
+    right: 55px;
+	transform: rotate(90deg);
+	position: fixed;
+	height: 17px;
+	width: 17px;
+	font-size: 7px;
+	font-weight: 900;
+
+}
+
+.scroll-mini {
+	position: fixed;
+    bottom: 40px;
+    left: 50px;
+	transform: rotate(90deg);
+}
+
+.SCC {
+	height: 17px;
+	width: 17px;
+}
+
+.mini-text {
+	position: fixed;
+    left: 54px;
+    bottom: 63px;
+	transform: rotate(270deg);
+	font-size: 7px;
+	height: 17px;
+	width: 17px;
+	font-weight: 900;
+}
+
+
+}
