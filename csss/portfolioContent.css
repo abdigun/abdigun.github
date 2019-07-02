@@ -1567,6 +1567,11 @@ ul {
 		text-decoration: none;
 
 	}
+	
+	.d-block {
+		padding: 0 0 20px;
+	
+	}
 
 
 /* picture container parallax*/
